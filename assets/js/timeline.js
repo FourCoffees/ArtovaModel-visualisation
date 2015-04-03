@@ -1,3 +1,18 @@
+/* ===================================================
+ * artovamodel-vis timeline.js
+ * artovamodel.fi/visual-eng
+ * ===================================================
+ * FourCoffees 2013
+ *
+ * Licensed under the MIT License
+ * using d3.js, tabletop.js, jquery.js
+ * ========================================================== */
+ 
+ /* Creates a visual timeline of events
+ that are called from a google spreadsheet.
+ */
+ 
+
 var wid = 1100,
 	heig = 150,
 	centerWid;
