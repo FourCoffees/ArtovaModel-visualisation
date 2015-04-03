@@ -1,6 +1,6 @@
 /* ===================================================
  * artovamodel-vis projects.js
- * artovamodel.fi/visual-eng
+ * artovamodel.fi/visual-eng --> Example Projects
  * ===================================================
  * FourCoffees 2013
  *
