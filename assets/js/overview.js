@@ -5,7 +5,9 @@
  * FourCoffees 2013
  *
  * Licensed under the MIT License
+ * using d3.js, tabletop.js, jquery.js
  * ========================================================== */
+ 
 var force, link, vis, nodes, navSvg;
 
 //What is called by the other file..
