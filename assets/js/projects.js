@@ -1,3 +1,14 @@
+/* ===================================================
+ * artovamodel-vis projects.js
+ * artovamodel.fi/visual-eng
+ * ===================================================
+ * FourCoffees 2013
+ *
+ * Licensed under the MIT License
+ * using d3.js, tabletop.js, jquery.js
+ * ========================================================== */
+ 
+ 
 /*
 * Shows the timeline and visualization of a project
 * takes as input an array of events highlighted already 
