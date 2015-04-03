@@ -1,6 +1,6 @@
 /*
 Copyright (c) 2012-2013 Jonathan Soma
-https://github.com/jsoma/tabletop
+see https://github.com/jsoma/tabletop
 */
 
 <!DOCTYPE html>
