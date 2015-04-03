@@ -1,3 +1,21 @@
+/* ===================================================
+ * artovamodel-vis makeYourOwn.js
+ * artovamodel.fi/visual-eng --> self-reflection questions
+ * ===================================================
+ * FourCoffees 2013
+ *
+ * Licensed under the MIT License
+ * using d3.js, tabletop.js, jquery.js
+ * ========================================================== */
+
+/*
+Reads questions from a google spreadsheet and visualises
+the user's repsonses with a point system.
+The visualisign happens by changing the area of  the 
+correpsonding circle.
+*/
+
+
 var wid = 500,
 	heig = 400,
 	centerWidM;
@@ -70,7 +88,7 @@ function makeInit() {
  		
 	//  read the spreadsheet:
 	Tabletop({
-      	      key: "https://docs.google.com/spreadsheet/pub?key=0AiVJjmNPOjDmdEdNMy1RVVozM3ZvQUlKaEJtbFNESWc&output=html",
+      	      key: "XXXX", //Add google spreasheet with questions & point system here
      	       callback: showInfo,
       	       simpleSheet: true,
       	       proxy: 'https://s3.amazonaws.com/flatware-live',
