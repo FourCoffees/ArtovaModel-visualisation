@@ -1,3 +1,7 @@
+/*
+Copyright (c) 2012-2013 Jonathan Soma
+*/
+
 (function(global) {
   "use strict";
 
