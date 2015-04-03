@@ -1,3 +1,11 @@
+/* ===================================================
+ * artovamodel-vis overview.js
+ * artovamodel.fi/visual-eng
+ * ===================================================
+ * FourCoffees 2013
+ *
+ * Licensed under the MIT License
+ * ========================================================== */
 var force, link, vis, nodes, navSvg;
 
 //What is called by the other file..
