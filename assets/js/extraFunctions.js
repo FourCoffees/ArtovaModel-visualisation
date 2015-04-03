@@ -1,3 +1,17 @@
+/* ===================================================
+ * artovamodel-vis extra.js
+ * artovamodel.fi/visual-eng
+ * ===================================================
+ * FourCoffees 2013
+ *
+ * Licensed under the MIT License
+ * using d3.js, jquery.js
+ * ========================================================== */
+
+/*
+Collection of functions about maths & data for the vis
+*/
+
 var w = 450,
     h = 400,
     centerW = w/2;
@@ -16,12 +30,12 @@ var colorCode = {"VisionGoals" : "#ffc01f", "Group" : "#78c0ef", "Partnerships":
 				"PersonalResources" : "#99ad6c" };
 
 var code  = [
-{"Abrev":"mha","Name":"My House Arabia","Link":"https://docs.google.com/spreadsheet/pub?key=0AiVJjmNPOjDmdExrVjhRYkRnSnpXckE5ZWJMdzZVMGc&single=true&gid=0&output=html"},
-{"Abrev":"aff","Name":"Artova Film Festival","Link":"https://docs.google.com/spreadsheet/pub?key=0AiVJjmNPOjDmdEs5V19PLTU0dkhybG9fYjc4c3pheEE&output=html"},
-{"Abrev":"asf","Name":"Arabia Street Festival","Link":"https://docs.google.com/spreadsheet/pub?key=0AiVJjmNPOjDmdEU2c09CcEJWOVVuckhEUjlYSU5QX2c&single=true&gid=0&output=html"},
-{"Abrev":"ak","Name":"Artova Kino","Link":"https://docs.google.com/spreadsheet/pub?key=0AiVJjmNPOjDmdHBFTl9kVkZTS1J4OE9TLU1Za1h3Z0E&single=true&gid=0&output=html"},
-{"Abrev":"ea","Name":"Edible Arabia","Link":"https://docs.google.com/spreadsheet/pub?key=0AiVJjmNPOjDmdDNHRUNFZ05rRjBVX0t2dTdraXpYNVE&single=true&gid=0&output=html"},
-{"Abrev":"ddp","Name":"Design Dog Park","Link":"https://docs.google.com/spreadsheet/pub?key=0AiVJjmNPOjDmdDU5VTFTSk5TT05kWWFLb1g4V1Z2SEE&single=true&gid=0&output=html"}
+{"Abrev":"mha","Name":"My House Arabia","Link":"XXXX"}, //link to google spreadsheet of project
+{"Abrev":"aff","Name":"Artova Film Festival","Link":"XXX"}, //link to google spreadsheet of project
+{"Abrev":"asf","Name":"Arabia Street Festival","Link":"XXX"}, //link to google spreadsheet of project
+{"Abrev":"ak","Name":"Artova Kino","Link":"XXX"}, //link to google spreadsheet of project
+{"Abrev":"ea","Name":"Edible Arabia","Link":"XXX"}, //link to google spreadsheet of project
+{"Abrev":"ddp","Name":"Design Dog Park","Link":"XXX"} //link to google spreadsheet of project
 ] ;
 
 function rotate_point(pointX, pointY, originX, originY, angle) {
