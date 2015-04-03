@@ -1,0 +1,157 @@
+#vizualProj {
+
+	height:355px;
+
+}
+
+
+p.descriptionText {
+	text-align: center;
+	line-height: 15pt;	
+	margin-bottom: 20px;
+}
+
+.alignCenter {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#mainContainer {
+	
+	margin-top: 100px;
+}
+
+img {
+	max-width:100%;
+}
+
+#tooltipPr text {
+
+     font-family: 'Open Sans';
+     font-size: 8pt;
+     line-height: 15pt;
+     font-weight: lighter;
+}
+
+.node text.rootProj tspan {
+	font-size: 9px;
+}
+
+.withBorder h3  { 
+	 font-family: 'Open Sans';
+     font-size: 10pt;
+     font-weight: regular;
+     margin-bottom: 2px;
+	 text-align: center;
+     line-height: 12pt;
+}
+
+.facts .num, .facts p
+{
+
+	font-weight: normal;
+	text-align: center;
+	
+}
+
+
+
+h6.example {
+	color: #606060;
+	margin-top:-20px;
+	margin-bottom:10px;
+	font-weight: lighter;
+	letter-spacing: 4px;	
+	word-spacing: 2pt;
+	font-size:8pt;
+}
+
+
+a h3 {
+
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 40px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+  
+  
+}
+
+ h4.facts{
+ 	 font-family: 'Helvetica';
+     font-size: 13pt;
+     font-weight: lighter;
+     line-height: 13pt;
+	
+}
+
+.facts .withBorder {
+
+	padding-left: 15px;
+	margin-left: 15px;
+}
+
+#first {
+	margin-right: 20px;
+}
+
+
+.greyish {
+
+	color: #939393;
+
+}
+
+.rounded {
+	-webkit-border-radius: 20px ;
+	border-radius: 20px ;
+} 
+
+.facts {
+	
+	padding-left: 24pt;
+	padding-bottom:10pt;
+
+}
+
+.addBorder {
+	border: 1px dashed #8f8f8f;
+	padding: 10px;
+}
+
+.legendText {
+	font-size:8pt;
+	font-weight:lighter;
+	stroke:none;
+	fill:#3f3f3f;
+}	
+
+.Maincontainer {
+
+	margin-bottom: 100px;
+}
+
+#timeline {
+	
+	margin-top:50px;
+}
+
+.factorProj, .factorProj  tspan{
+	
+	font-size :7pt;
+	color: #f3f3f3;
+}
+
+#eventDesc {
+	padding:20px;
+}
+
+#eventQuotes{
+	padding-left:20px;
+}
+
+#timelineContainer{
+	padding-bottom: 50px;
+}
